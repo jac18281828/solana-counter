@@ -1,0 +1,13 @@
+[package]
+name = "solana_native"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.18.26"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[profile.release]
+overflow-checks = true
