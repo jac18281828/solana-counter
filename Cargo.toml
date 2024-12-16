@@ -1,5 +1,5 @@
 [package]
-name = "solana_native"
+name = "solana_counter"
 version = "0.1.0"
 edition = "2021"
 

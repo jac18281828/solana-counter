@@ -1,0 +1,28 @@
+{
+  "name": "solana-counter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/initialize.js",
+  "scripts": {
+    "build": "tsc",
+    "increment": "node dist/increment.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jac18281828/solana-counter.git"
+  },
+  "author": "John Cairns",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/jac18281828/solana-counter/issues"
+  },
+  "homepage": "https://github.com/jac18281828/solana-counter#readme",
+  "dependencies": {
+    "@solana/web3.js": "1.98.0",
+    "dotenv": "16.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
