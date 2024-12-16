@@ -48,3 +48,6 @@ RUN bash -c ". $NVM_DIR/nvm.sh && nvm install $NODE_VERSION && nvm alias default
 
 RUN npm install npm -g
 RUN npm install yarn -g
+
+RUN cargo fmt --all -- --check
+RUN cargo test-bpf
